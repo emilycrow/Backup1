@@ -68,7 +68,7 @@ public class PantallaJuego implements Screen
         cargarTexturasSprites();
         crearHoyos();
         crearTopos();
-        efectoGolpe= Gdx.audio.newSound(Gdx.files.internal("Punch Sound Effect.mp3"));
+        efectoGolpe= Gdx.audio.newSound(Gdx.files.internal("The Boo! You Suck! Sound Effect.mp3"));
         musicaFondo= Gdx.audio.newMusic(Gdx.files.internal("04 Ageispolis.mp3"));
         musicaFondo.setLooping(true);   ///Infinito
         musicaFondo.play();
